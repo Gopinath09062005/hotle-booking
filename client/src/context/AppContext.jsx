@@ -5,8 +5,7 @@ import { toast } from 'react-hot-toast'
 import { useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 
-axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
-
+axios.defaults.baseURL = "https://hotel-booking-0ppw.onrender.com";
 const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
